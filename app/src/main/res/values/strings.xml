@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- login -->
+    <string name="prompt_blog_url">Blog address</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="no_such_blog">There is no Ghost admin at %s/ghost</string>
+    <string name="login_unexpected_error">Unexpected error during sign in. Please try again.</string>
+    <string name="login_connection_error">Could not connect to %s/ghost. Please try again.</string>
+    <string name="login_ssl_unsupported">Your blog does not support https:// (SSL)</string>
+    <string name="logout">Logout</string>
+    <string name="credentials_expired">Auto-login failed, please log in again</string>
+    <string name="unsynced_changes_msg">You will lose all unsynced changes if you log out now</string>
+    <string name="dont_logout">Don\'t logout</string>
+
+    <!-- posts -->
+    <string name="status_published">Published %s</string>
+    <string name="status_draft">Draft</string>
+    <string name="status_scheduled">Scheduled - %s</string>
+    <string name="status_offline_changes">Saved on device, waiting to go online…</string>
+    <string name="status_published_auto_saved">Changes auto-saved, not published yet</string>
+    <string name="status_marked_for_deletion">Marked for deletion, waiting to go online…</string>
+    <string name="status_marked_for_deletion_open_error">That post is marked for deletion, it cannot be opened</string>
+
+    <string name="preview">Preview</string>
+    <string name="edit">Edit</string>
+    <string name="publish">Publish</string>
+    <string name="update_post">Update Post</string>
+    <string name="unpublish">Unpublish</string>
+    <string name="alert_publish">Publish draft?</string>
+    <string name="alert_unpublish">Unpublish post?</string>
+    <string name="delete_draft">Delete draft</string>
+    <string name="alert_delete_draft_title">Delete this draft?</string>
+    <string name="alert_delete_draft_msg">You will not be able to undo this!</string>
+    <string name="alert_delete_yes">Delete</string>
+    <string name="alert_delete_no">Keep</string>
+    <string name="post_deleted">Post deleted</string>
+    <string name="alert_save_msg">Update post with changes?</string>
+    <string name="alert_save_yes">Yes, update</string>
+    <string name="alert_save_no">Not yet</string>
+    <string name="discard_changes">Discard changes</string>
+    <string name="alert_discard_changes_title">Discard ALL changes since you opened this post?</string>
+    <string name="alert_discard_changes_msg">There\'s no going back!</string>
+    <string name="discard">Discard</string>
+    <string name="view_homepage">View homepage</string>
+    <string name="view_post_on_blog">View post on blog</string>
+    <string name="post_settings">Post Settings</string>
+
+    <string name="save_post_progress">Saving post…</string>
+    <string name="save_post_failed">Couldn\'t save post</string>
+    <string name="save_post_view">View on blog</string>
+    <string name="save_post_timeout">Saved on device</string>
+
+    <string name="save_scenario_unknown">Saved</string>
+    <string name="save_scenario_publish_draft">Post published!</string>
+    <string name="save_scenario_unpublish_published_post">Post unpublished</string>
+    <string name="save_scenario_auto_save_scheduled_or_published_post">Changes saved on device</string>
+    <string name="save_scenario_explicitly_update_scheduled_or_published_post">Post updated</string>
+    <string name="save_scenario_auto_save_draft">Draft saved</string>
+    <string name="save_scenario_explicitly_save_draft">Draft saved</string>
+
+    <string name="post_title_hint">Post title</string>
+    <string name="post_image_hint">Add post image</string>
+    <string name="post_tags_hint">Tags</string>
+    <string name="post_tags_format_hint">Use commas to separate tags</string>
+    <string name="post_body_hint">Begin writing your story…</string>
+    <string name="post_image_load_error">Error loading post image</string>
+    <string name="post_excerpt_hint">Excerpt</string>
+    <string name="post_feature_hint">Feature this post</string>
+    <string name="post_page_hint">Turn this post into a page</string>
+
+    <string name="koenig_post_error">The app can only open posts containing a single Markdown card</string>
+
+    <!-- image insert / upload -->
+    <string name="insert_image">Insert Image</string>
+    <string name="insert_image_url">Insert URL</string>
+    <string name="image_url">Image URL</string>
+    <string name="insert_image_upload">Upload Image</string>
+    <string name="uploading">Uploading…</string>
+    <string name="image_upload_failed">Couldn\'t upload image</string>
+    <string name="remove_image">Remove This Image</string>
+    <string name="enable_permission_tip">Tap \"Permissions\" and enable the \"Storage\" permission</string>
+
+    <!-- conflict resolution -->
+    <string name="conflict_explanation"><![CDATA[<b>The post <i>%s</i> has a conflict.</b> It was updated on the server before your device\'s copy could be uploaded. Which version of the post would you like to keep?]]></string>
+    <string name="conflict_choice_use_device_copy">Upload device copy</string>
+    <string name="conflict_choice_use_server_copy">Download server copy</string>
+    <string name="conflict_last_update_at">Last updated at %s</string>
+    <string name="conflict_post_preview_title">The below copy of the post will be kept:</string>
+    <string name="conflict_post_preview_status"><![CDATA[Post status: <b>%s</b>]]></string>
+
+    <!-- about -->
+    <string name="about_action">About…</string>
+    <string name="about">About</string>
+
+    <string name="version">Version</string>
+
+    <string name="category_support_development">Support development</string>
+    <string name="play_store">Rate on Play Store</string>
+    <string name="play_store_subtitle">Thanks for your support!</string>
+
+    <!-- network -->
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="network_timeout">Connection timed out</string>
+    <string name="refresh_failed">Couldn\'t refresh data</string>
+
+    <!-- generic -->
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="refresh">Refresh</string>
+    <string name="share">Share</string>
+    <string name="loading">Loading…</string>
+    <string name="insert">Insert</string>
+    <string name="intent_no_apps">There are no apps that can handle this action</string>
+    <string name="accept">Accept</string>
+    <string name="draft">Draft</string>
+    <string name="published">Published</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="next">Next</string>
+<string name="send_feedback">Send Feedback</string>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <!-- login -->
+    <string name="prompt_blog_url">Dirección del blog</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+
+    <string name="error_invalid_email">La dirección de email es inválida</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+
+    <string name="no_such_blog">No se encuentra el panel de administración de Ghost en %s/ghost</string>
+    <string name="login_unexpected_error">Error inesperado durante el acceso. Por favor, vuelva a intentarlo.</string>
+    <string name="login_connection_error">No se ha podido conectar a %s/ghost. Por favor, vuelva a intentarlo.</string>
+    <string name="login_ssl_unsupported">Su blog no soporta https:// (SSL)</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="credentials_expired">Auto Inicio de Sesión fallido, por favor ingrese de nuevo</string>
+    <string name="unsynced_changes_msg">Se perderán todos los cambios no guardados si cierra la sesión ahora</string>
+    <string name="dont_logout">No cerrar sesión</string>
+
+    <!-- posts -->
+    <string name="status_published">Publicado %s</string>
+    <string name="status_draft">Borrador</string>
+    <string name="status_scheduled">Programado - %s</string>
+    <string name="status_offline_changes">Guardado en dispositivo, esperando a tener conexión…</string>
+    <string name="status_published_auto_saved">Cambios auto-guardados, no publicados todavía</string>
+    <string name="status_marked_for_deletion">Marcado para borrar, esperando a tener conexión…</string>
+    <string name="status_marked_for_deletion_open_error">Este artículo ha sido marcado para ser borrado, no puede ser abierto</string>
+
+    <string name="preview">Previsualizar</string>
+    <string name="edit">Editar</string>
+    <string name="publish">Publicar</string>
+    <string name="update_post">Actualizar Artículo</string>
+    <string name="unpublish">Despublicar</string>
+    <string name="alert_publish">Publicar borrador?</string>
+    <string name="alert_unpublish">Despublicar artículo?</string>
+    <string name="delete_draft">Eliminar borrador</string>
+    <string name="alert_delete_draft_title">Eliminar este borrador?</string>
+    <string name="alert_delete_draft_msg">No se podrá deshacer la acción!</string>
+    <string name="alert_delete_yes">Eliminar</string>
+    <string name="alert_delete_no">Mantener</string>
+    <string name="post_deleted">Artículo eliminado</string>
+    <string name="alert_save_msg">Actualizar artículo con los cambios?</string>
+    <string name="alert_save_yes">Sí, actualizar</string>
+    <string name="alert_save_no">Aún no</string>
+    <string name="discard_changes">Descartar cambios</string>
+    <string name="alert_discard_changes_title">Descartar TODOS los cambios desde que abrió el artículo?</string>
+    <string name="alert_discard_changes_msg">No hay vuelta atrás!</string>
+    <string name="discard">Descartar</string>
+    <string name="view_homepage">Ver página principal</string>
+    <string name="view_post_on_blog">Ver artículo en el blog</string>
+    <string name="post_settings">Ajustes del artículo</string>
+
+    <string name="save_post_progress">Guardando artículo…</string>
+    <string name="save_post_failed">No se ha podido guardar el artículo</string>
+    <string name="save_post_view">Ver en blog</string>
+    <string name="save_post_timeout">Guardado en el dispositivo</string>
+
+    <string name="save_scenario_unknown">Guardado</string>
+    <string name="save_scenario_publish_draft">Artículo publicado!</string>
+    <string name="save_scenario_unpublish_published_post">Artículo despublicado</string>
+    <string name="save_scenario_auto_save_scheduled_or_published_post">Cambios guardados en el dispositivo</string>
+    <string name="save_scenario_explicitly_update_scheduled_or_published_post">Artículo actualizado</string>
+    <string name="save_scenario_auto_save_draft">Borrador guardado</string>
+    <string name="save_scenario_explicitly_save_draft">Draft guardado</string>
+
+    <string name="post_title_hint">denominación del puesto</string>
+    <string name="post_image_hint">Añadir imágen al artículo</string>
+    <string name="post_tags_hint">Etiquetas</string>
+    <string name="post_tags_format_hint">Use comas para separar las etiquetas</string>
+    <string name="post_body_hint">Comience a escribir su historia</string>
+    <string name="post_image_load_error">Error cargando la imagen del artículo</string>
+    <string name="post_feature_hint">Resaltar este artículo</string>
+
+    <!-- image insert / upload -->
+    <string name="insert_image">Insertar Imagen</string>
+    <string name="insert_image_url">Insertar URL</string>
+    <string name="image_url">URL de la imagen</string>
+    <string name="insert_image_upload">Subir imagen</string>
+    <string name="uploading">Subiendo…</string>
+    <string name="image_upload_failed">No se ha podido subir la imagen</string>
+    <string name="remove_image">Eliminar la imagen</string>
+
+    <!-- about -->
+    <string name="about_action">Acerca de…</string>
+    <string name="about">Acerca de</string>
+
+    <string name="version">Versión</string>
+
+    <string name="category_support_development">Apoyar desarrollo</string>
+    <string name="play_store">Puntuar en Play Store</string>
+    <string name="play_store_subtitle">Gracias por su apoyo!</string>
+
+    <!-- network -->
+    <string name="no_internet_connection">No hay conexión a Internet</string>
+    <string name="network_timeout">Ha expirado el tiempo de conexión</string>
+    <string name="refresh_failed">No se han podido actualizar los datos</string>
+
+    <!-- generic -->
+    <string name="done">Hecho</string>
+    <string name="save">Guardar</string>
+    <string name="refresh">Actualizar</string>
+    <string name="share">Compartir</string>
+    <string name="loading">Cargando…</string>
+    <string name="insert">Insertar</string>
+    <string name="intent_no_apps">No se ha encontrado ninguna aplicación que pueda realizar esta acción</string>
+    <string name="next">Siguiente</string>
+
+<string name="post_excerpt_hint">Extracto</string>
+    <string name="post_page_hint">Convertir este Artículo a Página</string>
+
+    <string name="enable_permission_tip">Haga Tap en Permisos y habilite Almacenamiento</string>
+
+    <string name="conflict_explanation"><b>El artículo <i>%s</i> tiene un conflicto.</b> Fue actualizado en el servidor antes de que la copia en su dispositivo fuera enviada. Qué versión del artículo le gustaría mantener?</string>
+    <string name="conflict_choice_use_device_copy">Copia local enviada</string>
+    <string name="conflict_choice_use_server_copy">Descargar copia del servidor</string>
+    <string name="conflict_last_update_at">Última actualización %s</string>
+    <string name="conflict_post_preview_title">Se mantendrá la copia del artículo mostrada abajo:</string>
+    <string name="conflict_post_preview_status">Estado del artículo: <b>%s</b></string>
+
+    <string name="accept">Aceptar</string>
+    <string name="draft">Borrador</string>
+    <string name="published">Publicado</string>
+    <string name="scheduled">Programado</string>
+    </resources>

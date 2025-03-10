@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="prompt_blog_url">블로그 주소</string>
+    <string name="prompt_email">이메일</string>
+    <string name="prompt_password">비밀번호</string>
+    <string name="error_invalid_email">입력한 이메일 주소가 올바르지 않습니다</string>
+    <string name="no_such_blog">%s/ghost에는 관리자가 존재하지 않습니다</string>
+    <string name="login_unexpected_error">로그인 과정에서 예기치 않은 오류가 발생하였습니다. 다시 시도해주세요.</string>
+    <string name="login_connection_error">%s/ghost에 연결할 수 없습니다. 다시 시도해주세요.</string>
+    <string name="login_ssl_unsupported">입력하신 블로그는 https:// (SSL)을 지원하지 않습니다</string>
+    <string name="logout">로그아웃</string>
+    <string name="error_field_required">이 입력란은 필수 항목입니다</string>
+
+    <string name="credentials_expired">자동 로그인에 실패하였습니다. 다시 로그인하세요</string>
+    <string name="unsynced_changes_msg">지금 로그아웃하면 동기화되지 않은 변경 사항을 잃게 됩니다</string>
+    <string name="status_draft">초안</string>
+    <string name="status_published">%s 발행됨</string>
+    <string name="dont_logout">로그아웃 취소</string>
+
+    <string name="status_offline_changes">기기에 저장됨, 온라인 상태 대기중…</string>
+    <string name="status_published_auto_saved">변경 사항 자동 저장됨, 아직 발행되지 않음</string>
+    <string name="status_marked_for_deletion">삭제 예정됨, 온라인 상태 대기중…</string>
+    <string name="status_scheduled">발행 대기중 - %s</string>
+    <string name="status_marked_for_deletion_open_error">이 글은 삭제 예정되어 있으며 열 수 없습니다</string>
+
+    <string name="preview">미리보기</string>
+    <string name="edit">편집</string>
+    <string name="publish">발행</string>
+    <string name="update_post">갱신</string>
+    <string name="unpublish">발행 취소</string>
+    <string name="alert_publish">초안을 발행할까요?</string>
+    <string name="alert_unpublish">발행을 취소할까요?</string>
+    <string name="delete_draft">초안 삭제</string>
+    <string name="alert_delete_draft_title">초안을 삭제할까요?</string>
+    <string name="alert_delete_draft_msg">한 번 실행하면 되돌릴 수 없습니다!</string>
+    <string name="alert_delete_yes">삭제</string>
+    <string name="post_deleted">글이 삭제되었습니다</string>
+    <string name="alert_delete_no">유지</string>
+    <string name="alert_save_msg">글을 갱신할까요?</string>
+    <string name="alert_save_yes">갱신</string>
+    <string name="alert_save_no">취소</string>
+    <string name="view_homepage">홈페이지 보기</string>
+    <string name="post_settings">글 설정</string>
+
+    <string name="save_post_timeout">기기에 저장됨</string>
+
+    <string name="save_scenario_publish_draft">글이 발행되었습니다!</string>
+    <string name="alert_discard_changes_msg">한 번 실행하면 되돌릴 수 없습니다!</string>
+    <string name="save_post_progress">글을 저장하는 중…</string>
+    <string name="save_post_failed">저장 실패</string>
+    <string name="save_scenario_unpublish_published_post">글이 발행 취소되었습니다</string>
+    <string name="post_tags_format_hint">콤마를 사용하여 태그 구분</string>
+
+    <string name="uploading">업로드하는 중…</string>
+    <string name="image_upload_failed">그림을 업로드할 수 없습니다</string>
+    <string name="conflict_last_update_at">%s에 마지막으로 갱신됨</string>
+    <string name="conflict_post_preview_status">글 상태: <b>%s</b></string>
+
+    <string name="about_action">소개…</string>
+    <string name="about">소개</string>
+
+    <string name="version">버전</string>
+
+    <string name="category_support_development">개발 지원</string>
+    <string name="play_store">Play Store 평점 매기기</string>
+    <string name="play_store_subtitle">개발을 도와주셔서 감사합니다!</string>
+
+    <string name="no_internet_connection">인터넷 연결 없음</string>
+    <string name="network_timeout">연결 시간 초과됨</string>
+    <string name="refresh_failed">데이터를 갱신할 수 없음</string>
+
+    <string name="save">저장</string>
+    <string name="refresh">새로고침</string>
+    <string name="share">공유</string>
+    <string name="loading">로드중…</string>
+    <string name="insert">삽입</string>
+    <string name="intent_no_apps">해당 명령을 실행할 앱을 찾을 수 없습니다</string>
+    <string name="published">발행됨</string>
+    <string name="scheduled">발행 대기중</string>
+
+    <string name="action_sign_in">로그인</string>
+
+<string name="view_post_on_blog">웹으로 보기</string>
+    <string name="save_post_view">웹에서 보기</string>
+    <string name="save_scenario_unknown">저장되었습니다</string>
+    <string name="save_scenario_auto_save_scheduled_or_published_post">바뀐 내용을 기기에 저장하였습니다</string>
+    <string name="save_scenario_explicitly_update_scheduled_or_published_post">글을 갱신하였습니다</string>
+    <string name="save_scenario_auto_save_draft">초안을 저장하였습니다</string>
+    <string name="save_scenario_explicitly_save_draft">초안을 저장하였습니다</string>
+
+    <string name="post_title_hint">글의 제목을 입력하세요…</string>
+    <string name="post_image_hint">글 대표 이미지 삽입</string>
+    <string name="post_tags_hint">태그를 달아보세요…</string>
+    <string name="post_body_hint">여기에 글의 내용을 입력하세요…</string>
+    <string name="post_image_load_error">그림을 로드하는 중에 오류가 발생하였습니다</string>
+    <string name="post_page_hint">이 글을 페이지로 지정</string>
+
+    <string name="insert_image">그림 삽입</string>
+    <string name="insert_image_url">그림 URL 삽입</string>
+    <string name="image_url">그림 URL</string>
+    <string name="insert_image_upload">그림 업로드</string>
+    <string name="remove_image">이 그림 제거</string>
+    <string name="enable_permission_tip">앱 권한에서 저장공간 권한을 부여해주세요</string>
+
+    <string name="conflict_explanation"><b>\'%s\' 글에 편집 충돌이 발생했습니다.</b> 기기의 사본이 업로드되기 전에 서버에서 먼저 갱신되었습니다. 어느 사본을 유지하시겠습니까?</string>
+    <string name="conflict_choice_use_device_copy">기기에 저장된 사본 업로드</string>
+    <string name="conflict_choice_use_server_copy">서버에 저장된 사본 다운로드</string>
+    <string name="conflict_post_preview_title">글의 다음 사본이 유지될 것입니다:</string>
+    <string name="accept">승인</string>
+    <string name="draft">초안</string>
+    <string name="discard_changes">변경 사항 취소</string>
+    <string name="alert_discard_changes_title">이 글을 연 후에 편집했던 내용을 모두 취소할까요?</string>
+    <string name="post_excerpt_hint">발췌본</string>
+    <string name="post_feature_hint">특성 글로 지정</string>
+    <string name="next">다음</string>
+
+</resources>

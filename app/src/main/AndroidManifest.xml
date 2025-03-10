@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- for picking images from Dropbox, Google Photos, etc -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".SpectreApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name=".view.LoginActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTop"
+            android:theme="@style/LoginTheme">
+        </activity>
+
+        <activity
+            android:name=".view.PostListActivity"
+            android:launchMode="singleTop"
+            android:exported="true"
+            android:theme="@style/CardListActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.PostViewActivity"
+            android:parentActivityName=".view.PostListActivity"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.PostListActivity"/>
+        </activity>
+
+        <activity
+            android:name=".view.PostConflictResolutionActivity"
+            android:parentActivityName=".view.PostListActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTask">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.PostListActivity"/>
+        </activity>
+
+        <activity
+            android:name=".view.AboutActivity"
+            android:parentActivityName=".view.PostListActivity"
+            android:theme="@style/CardListActivityTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.PostListActivity"/>
+        </activity>
+
+        <activity
+            android:name=".view.OpenSourceLibsActivity"
+            android:parentActivityName=".view.AboutActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.AboutActivity"/>
+        </activity>
+
+    </application>
+
+</manifest>
